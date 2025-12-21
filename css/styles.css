@@ -244,7 +244,7 @@ a {
 }
 
 .team-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -269,7 +269,7 @@ a {
 }
 
 .team-user {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -281,7 +281,7 @@ a {
 }
 
 .portfolio-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -297,7 +297,7 @@ a {
 }
 
 .portfolio-subtitle {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -314,10 +314,7 @@ a {
 
 .footer {
   background: #2e2f42;
-}
-
-.footer-container {
-  padding: 100px 15px;
+  padding: 100px 0;
 }
 
 .footer-logo .logo-part {
@@ -326,6 +323,6 @@ a {
 
 .footer-text {
   color: #f4f4fd;
-  padding-top: 16px;
+  margin-top: 16px;
   max-width: 264px;
 }
