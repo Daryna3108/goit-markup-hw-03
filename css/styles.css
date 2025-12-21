@@ -35,6 +35,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -56,7 +58,7 @@ a {
 
 /* --------------SECTION------------- */
 
-section {
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -265,15 +267,16 @@ section {
 .team-img {
 }
 
-.team-user {
+.team-container {
+  padding: 32px 16px;
   text-align: center;
+}
+
+.team-user {
   padding-bottom: 8px;
-  padding-top: 32px;
 }
 
 .team-text {
-  text-align: center;
-  padding-bottom: 32px;
 }
 
 /* --------------PORTFOLIO------------- */
@@ -320,7 +323,7 @@ section {
 }
 
 .footer-container {
-  padding: 100px 0;
+  padding: 100px 15px;
 }
 
 .footer-logo .logo-part {
