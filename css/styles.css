@@ -292,6 +292,7 @@ a {
 }
 
 .portfolio-item {
+  width: 360px;
 }
 
 .portfolio-img {
